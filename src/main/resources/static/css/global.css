@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navContainer ul li a {
+    text-transform: uppercase;
+}
+
+
+  
+  :root {
+    --background: #FBFBFB;
+    --paragraph: #1b1b1b;
+    --aqua: #ffffff;
+    --blue: #5429cc;
+    --green: #c4cecb;
+    --map-color:#d1ffe9;
+    --title-color: #342b2b;
+    --blue400: #40b9ff;
+    --buttonInit: #000;
+    --buttonInner: #fff;
+    --styleHeader: #fff;
+    --title-blue: #000000;
+    --btn-delete: rgb(26, 26, 26);
+    
+
+    --text-body: #969cb3;
+    --form-color: #ffffff;
+    --gray200: #e2e8f0;
+    --black-background: #1b1b1b94;
+
+    --black800: #2B2B2B;
+    --black900: #1b1b1b;
+
+    --white: #ffffff;
+    --paragraph-color: #000000;
+
+    --text-input: #1b1b1b;
+}
+
+.dark-mode:root {
+    --background: #121214;
+    --aqua: #181818;
+    --map-color:#414141;
+    --title-color: #ffffff;
+    --text-body: #969cb3;
+    --paragraph-color: #ffffff;
+    --black-background: #1b1b1b;
+    --paragraph: #fff;
+    --buttonInit: rgb(255, 255, 255);
+    --buttonInner: #000;
+    --blue400: rgb(32, 32, 36);
+    --form-color: #202024;
+    --black900: #f0f0f0;
+    --gray200: #121214;
+    --text-input: #e6e6e6;
+    --styleHeader: #fff;
+    --title-blue: #40b9ff;
+    --btn-delete: rgb(255, 45, 45);
+    
+
+}

@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background: #FBFBFB;
+    --aqua: #00DBE9;
+    --blue: #5429cc;
+    --green: #33cc95;
+    --map-color:#d1ffe9;
+    --title-color: #342b2b;
+    --blue400: #2663aa;
+
+    --text-body: #969cb3;
+    --form-color: #e7e7e7;
+    --gray200: #8b3b3b;
+
+    --black800: #2B2B2B;
+    --black900: #1b1b1b;
+
+    --white: #ffffff;
+    --paragraph-color: #000000
+}
+
+.dark-mode:root {
+    --background: #2B2B2B;
+    --aqua: #00DBE9;
+    --map-color:#414141;
+    --title-color: #ffffff;
+    --text-body: #969cb3;
+    --paragraph-color: #ffffff;
+}
