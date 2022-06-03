@@ -1,6 +1,6 @@
 # SIG5
 
-Link do Heroku site: 
+Link do Heroku site com acessibilidade: https://clockamr.herokuapp.com/
 
 Chave: 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
 
