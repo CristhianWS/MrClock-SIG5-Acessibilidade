@@ -52,14 +52,17 @@
             <form action="#" th:action="@{/sig/pedidos}" th:object="${umPedido}" method="post">
                 <div class="card-details">
                     <div class="card-box">
+                        <label for="">CPF</label>
                         <input 
                         th:field="*{cpf}" type="text" placeholder="Escreva o CPF" id="cpf"
                             required>
                     </div>
                     <div class="card-box">
+                        <label for="">Código do Produto</label>
                         <input th:field="*{produtoId}" type="text" placeholder="Código Produto" id="produtoId">
                     </div>
                     <div class="card-box">
+                        <label for="">Quantidade</label>
                         <input th:field="*{quantidade}" type="text" placeholder="Quantidade" id="quantidade"
                             required>
                     </div>

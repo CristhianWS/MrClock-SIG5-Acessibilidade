@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | Mr.Clock</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/global.css}" />
+    <link rel="stylesheet" type="text/css" th:href="@{/css/styleMenu.css}" />
+    <link rel="stylesheet" type="text/css" th:href="@{/css/carrossel.css}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+    <header class="topHeader">
+        <label>Contraste</label>
+        <input id="btn" name="btn" type="checkbox">
+    </header>
+    <!-- Header -->
+    <div class="headerContainer ">
+        
+        <div class="containerHeader ">
+            <h1>Mr.Clock</h1>
+            <nav class="navContainer">
+                <ul>
+                <li> <a th:href="@{/sig/cliente}">CLIENTES</a></li>
+				<li> <a th:href="@{/sig/produto}">PRODUTOS</a> </li>
+				<li> <a th:href="@{/sig/pedido}">PEDIDOS</a> </li>
+				<li><a href="">CONVENIO</a></li>
+				<li><a th:href="@{/login?logout}">SAIR</a></li>
+                    
+        
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+        <footer>
+            <div class="footerContainer ">
+                <div class="footer-content ">
+                    <h3>Mr.Clock</h3>
+                    <p>João Victor</p><br>
+                    <p>Luan</p><br>
+                    <p>Cristhian</p><br>
+                    <p>Débora</p><br>
+                </div>
+            </div>
+        </footer>
+</body>
+
+<script src="https://use.fontawesome.com/1744f3f671.js "></script>
+<script src="js/template4.js "></script>
+<script src="js/contraste.js"></script>
+
+</html>

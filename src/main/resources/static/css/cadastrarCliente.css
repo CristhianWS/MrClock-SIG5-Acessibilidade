@@ -79,7 +79,7 @@ li {
 
   .form-1 input {
       display: block;
-      margin-bottom: 3rem;
+      margin-top: 45px;
       height: 56px;
       border:none;
       border-bottom: 1px solid #000;
@@ -87,6 +87,10 @@ li {
       font-family: Inter;
       margin-top: 60px;
       margin-left: 320px;
+  }
+
+  .fomr-1 label {
+    margin-bottom: 45px;
   }
 
   .form-2 {

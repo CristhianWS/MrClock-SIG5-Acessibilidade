@@ -47,18 +47,23 @@
             <form action="#" th:action="@{/sig/produtos/id/{id} (id=${produto.id}) }" th:object="${produto}" method="post">
                 <div class="card-details">
                     <div class="card-box">
+                        <label for="">Nome</label>
                         <input th:field="*{nome}" type="text" placeholder="Escreva o nome do produto" id="nome" required>
                     </div>
                     <div class="card-box">
+                        <label for="">Marca</label>
                         <input th:field="*{marca}" type="text" placeholder="Escreve a marca do produto" id="marca">
                     </div>
                     <div class="card-box">
+                        <label for="">Valor</label>
                         <input th:field="*{preco}" type="text" placeholder="Escreva o valor do produto" id="preco" required>
                     </div>
                     <div class="card-box">
+                        <label for="">Descrição</label>
                         <input th:field="*{descricao}" type="text" placeholder="Descreva as características do produto" id="descricao" required>
                     </div>
                     <div class="card-box">
+                        <label for="">Quantidade</label>
                         <input th:field="*{quantidade}" type="number" placeholder="Escreva a quantidade do produto" id="quantidade">
                     </div>
                 </div>

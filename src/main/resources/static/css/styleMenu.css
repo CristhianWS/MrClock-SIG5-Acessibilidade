@@ -32,7 +32,7 @@ h1 {
 
 .containerHeader h1 {
   font-family: Rubik;
-  color: var(--styleHeader);
+  color: #fff;
 }
 
 .navContainer ul li a {
@@ -91,9 +91,9 @@ li {
       ),
       linear-gradient(
         to right,
-        rgb(255, 255, 255),
-        rgb(255, 255, 255),
-        rgb(255, 255, 255)
+        var(--styleHeader),
+        var(--styleHeader),
+        var(--styleHeader)
     );
     background-size: 100% 3px, 0 3px;
     background-position: 100% 100%, 0 100%;
@@ -319,6 +319,6 @@ footer {
 }
 
 .navContainer ul li a:hover {
-    color: #3ab7d6;
+    color: var(--styleHeader);
     cursor: pointer;
 }

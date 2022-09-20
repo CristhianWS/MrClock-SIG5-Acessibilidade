@@ -38,6 +38,7 @@
 
     --white: #ffffff;
     --paragraph-color: #000000;
+    --styleTitle: #fff
 
     --text-input: #1b1b1b;
 }
@@ -58,9 +59,10 @@
     --black900: #f0f0f0;
     --gray200: #121214;
     --text-input: #e6e6e6;
-    --styleHeader: #fff;
+    --styleHeader: rgb(255, 238, 0);
     --title-blue: #40b9ff;
     --btn-delete: rgb(255, 45, 45);
+    --styleTitle: #fff
     
 
 }
